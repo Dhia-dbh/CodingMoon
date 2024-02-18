@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './componenent/Home/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import QRCodeGenerator from './componenent/QR/QR'
 function App() {
   const [count, setCount] = useState(0)
 
