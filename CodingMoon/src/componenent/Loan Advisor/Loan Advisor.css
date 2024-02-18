@@ -1,0 +1,13 @@
+.but{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.cont{    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */}
+
+    button[type="button"]{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
